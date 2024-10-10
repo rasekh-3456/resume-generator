@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resume - Syed Muhammad Rasekh Ali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="profile-header">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>Syed Muhammad Rasekh Ali</h1>
+            <p>Highly motivated and technically skilled individual with strong IT and cybersecurity skills.</p>
+        </div>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <ul>
+                <li><strong>Name:</strong> Syed Muhammad Rasekh Ali</li>
+                <li><strong>Date of Birth:</strong> 3rd Oct 2004</li>
+                <li><strong>Father Name:</strong> Saood Ahmed</li>
+                <li><strong>Religion:</strong> Islam</li>
+                <li><strong>Nationality:</strong> Pakistan</li>
+                <li><strong>Gender:</strong> Male</li>
+                <li><strong>Marital Status:</strong> Unmarried</li>
+                <li><strong>CNIC:</strong> 42101-6009165-9</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>MATRIC:</strong> Happy Palace Group of Schools (2020-2021)</li>
+            <li><strong>DIPLOMA (CIT):</strong> Aligarh Institute of Technology (2021-2024)</li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certificate of Appreciation from "BridgelT" for attending their Ethical Hacking course.</li>
+            <li>Certificate from "Urdu Courses" for completing the "CyberSavvy: Navigating Linux & Essential Cybersecurity" course.</li>
+        </ul>
+    </section>
+
+    <!-- Skills Dropdown (with JavaScript interactivity) -->
+    <section id="skills">
+        <h2 onclick="toggleDropdown('skills-list')">+ Familiar Apps and Programming Languages</h2>
+        <div id="skills-list" class="dropdown-content">
+          <div class="familiar-apps">
+            <h3>Familiar Apps:</h3>
+            <ul>
+                <li>Adobe Premiere Pro 2021</li>
+                <li>Adobe Photoshop 2021</li>
+                <li>Adobe Illustrator 2021</li>
+                <li>VS Code</li>
+                <li>Capcut</li>
+                <li>Figma</li>
+                <li>XAMPP</li>
+            </ul>
+          </div>
+          <div class="familiar-languages">
+            <h3>Familiar Programming Languages:</h3>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Dropdown -->
+    <section id="projects">
+        <h2 onclick="toggleDropdown('projects-list')">Familiar Coding Projects (Click to expand)</h2>
+        <div id="projects-list" class="dropdown-content">
+            <ul>
+                <li><strong>MIVI Voting Machine (C++):</strong> Developed a voting machine using C++ to securely collect and count votes.</li>
+                <li><strong>Basic Keylogger (Python):</strong> Created a HID keyboard to run bash scripts on Windows to compromise its security using Arduino Pro Micro.</li>
+                <li><strong>Basic Clothing Website (HTML, CSS, JavaScript, PHP, MySQL):</strong> Developed a keylogger to understand keylogging techniques and cybersecurity measures.</li>
+                <li><strong>HID Device Using Arduino Pro Micro (C++):</strong> Designed and developed a basic clothing website with frontend and backend functionality.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <footer>
+        <p><strong>Phone:</strong> 03343948551</p>
+        <p><strong>Email:</strong> rasekh3456@gmail.com</p>
+        <p><strong>Location:</strong> UK Square near water pump, Karachi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

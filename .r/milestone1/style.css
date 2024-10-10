@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #004080;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #004080;
+}
+
+.about ul, #skills-list ul, #projects-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+}
+
+/* Add a smooth transition for the dropdown */
+.dropdown-content ul {
+    padding-left: 20px;
+}
+.familiar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.familiar-apps, .familiar-languages {
+    width: 45%;
+}

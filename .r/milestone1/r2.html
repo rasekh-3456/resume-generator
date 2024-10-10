@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="r2.css">
+    <script src="script.js">
+        function toggleDropdown(sectionId) {
+            var content = document.getElementById(sectionId);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="projects">
+        <div class="card">
+            <h2 onclick="toggleDropdown('skills-list')">Familiar Skills</h2>
+            <button id="toggleSkills">Toggle Skills</button>
+            <ul id="skillsSection" class="dropdown-content">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </section>
+    <section id="skills">
+    <div class="card">
+        <h2 onclick="toggleDropdown('cert-list')">Certifications</h2>
+        <button id="toggleCertifications">Toggle Certifications</button>
+        <ul id="certificationsSection" class="dropdown-content">
+            <li>Ethical Hacking from BridgeIT</li>
+            <li>Cybersecurity Essentials from Urdu Courses</li>
+        </ul>
+    </div>
+    </section>
+</body>
+
+</html>

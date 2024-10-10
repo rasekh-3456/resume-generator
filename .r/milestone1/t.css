@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#profile img {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #004080;
+}
+
+.card {
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+}

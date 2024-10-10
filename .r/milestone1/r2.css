@@ -1,0 +1,76 @@
+/* Resume Style Enhancements */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3366cc;
+}
+
+button {
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #254a9e;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Card shadow effect */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Toggle Section (hidden by default) */
+.toggle-section {
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.toggle-section.active {
+    display: block;
+}
+#skills-list #cert-list{
+    list-style-type: none;
+    padding: 0;
+}
+.dropdown-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+}
+
+/* Add a smooth transition for the dropdown */
+.dropdown-content ul {
+    padding-left: 20px;
+}
